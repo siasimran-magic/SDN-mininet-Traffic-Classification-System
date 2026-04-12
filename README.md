@@ -78,14 +78,14 @@ h1 iperf -c h2 -u
 
 ---
 
-## 📊 Expected Output
+##  Expected Output
 
 * ICMP packets detected during ping
 * TCP packets detected during iperf
 * UDP packets detected during UDP test
 * Packet statistics displayed in controller logs
 
-## 📸 Proof of Execution
+## Proof of Execution
 
 Screenshots included:
 
