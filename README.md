@@ -85,6 +85,12 @@ h1 iperf -c h2 -u
 * UDP packets detected during UDP test
 * Packet statistics displayed in controller logs
 
+### Normal Case
+Network communication is successful. Ping between hosts works correctly, and packets are classified by the controller.
+
+### Failure Case
+Initially, communication fails due to lack of flow rules in the switch, resulting in "Destination Host Unreachable". After learning, the controller installs flow rules and communication becomes successful.
+
 ## Proof of Execution
 
 Screenshots included:
