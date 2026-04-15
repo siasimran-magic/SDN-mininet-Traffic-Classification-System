@@ -1,6 +1,6 @@
 
 
-
+````markdown
 # SDN Traffic Classification System (Mininet + Ryu)
 
 ## Problem Statement
@@ -39,15 +39,11 @@ sudo apt install python3-pip
 pip3 install ryu
 ````
 
----
-
 ### 2. Run Controller
 
 ```bash
 ryu-manager traffic_classifier.py
 ```
-
----
 
 ### 3. Start Mininet
 
@@ -112,10 +108,7 @@ After learning, the controller installs flow rules and communication becomes suc
 
 Caption: Initial ping failure due to missing flow rules in the switch.
 
-```md
 <img width="852" height="478" alt="ping_failure" src="https://github.com/user-attachments/assets/dee0e298-d05b-41fc-b9a0-426347dcd0c2" />
-
-```
 
 ---
 
@@ -123,10 +116,7 @@ Caption: Initial ping failure due to missing flow rules in the switch.
 
 Caption: Successful ICMP communication after the controller installs flow rules.
 
-```md
 <img width="1725" height="668" alt="ping_success" src="https://github.com/user-attachments/assets/b3c844e4-0d8e-4d14-8e78-a509845fa00b" />
-
-```
 
 ---
 
@@ -134,10 +124,7 @@ Caption: Successful ICMP communication after the controller installs flow rules.
 
 Caption: TCP traffic transmission showing high bandwidth between hosts.
 
-```md
 <img width="858" height="216" alt="tcp_test" src="https://github.com/user-attachments/assets/07987327-052b-423a-a2b1-5c9918684fa5" />
-
-```
 
 ---
 
@@ -145,10 +132,7 @@ Caption: TCP traffic transmission showing high bandwidth between hosts.
 
 Caption: UDP traffic test showing datagram transmission and bandwidth.
 
-```md
 <img width="1733" height="638" alt="udp_test" src="https://github.com/user-attachments/assets/c63044c2-623b-4130-9f65-314a3682fcd9" />
-
-```
 
 ---
 
@@ -156,10 +140,7 @@ Caption: UDP traffic test showing datagram transmission and bandwidth.
 
 Caption: Ryu controller logs displaying classified packet counts (TCP, UDP, ICMP, Other).
 
-```md
 <img width="1619" height="948" alt="logs" src="https://github.com/user-attachments/assets/d77e5012-f363-4b2f-b388-3731c007c04b" />
-
-```
 
 ---
 
@@ -171,4 +152,5 @@ Caption: Ryu controller logs displaying classified packet counts (TCP, UDP, ICMP
 * Traffic classification and monitoring
 
 ```
+
 ```
